@@ -9,12 +9,12 @@ import math
 
 t = turtle.Turtle()
 
-for i in range(10):
+for i in range(1):
     t.forward(i * 5)
     t.right(144)
 
 sum = 0
-for i in range(1,100):
+for i in range(1, 100):
     sum = sum + i*((-1)**(i+1))
 print(sum)
 
@@ -50,6 +50,8 @@ while x < 21:
     x = x + 1
 
 print('result:', x,  acc, sum)
+
+
 
 
 
