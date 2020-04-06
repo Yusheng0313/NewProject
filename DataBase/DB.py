@@ -2,6 +2,7 @@
 # -*- coding:utf-8 -*-
 import pymysql
 
+
 class DB():
     def __init__(self, host='192.168.0.110', port=3306, db='mysql-test', user='root', passwd='123456', charset='utf8'):
         # 建立连接
